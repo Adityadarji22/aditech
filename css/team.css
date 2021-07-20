@@ -1,0 +1,180 @@
+/*
+Template Name:Merchandise
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.Google.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+body{
+font-family: 'PT Serif Caption', serif;
+   }
+
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+border:none!important;
+ }
+ 
+/********************* team ****************/
+#team{ 
+ background: #080808;
+ padding-top:100px;
+ padding-bottom:0px;
+ }
+.team_1 h2{ 
+ font-size:40px;
+ color:#fff;
+ padding-top:80px;
+ border-bottom:3px solid #fff;
+ width:23%;
+ padding-bottom:10px;
+ }
+/********************* team_end ****************/
+/********************* layout ****************/
+#layout{ 
+ padding-top:50px;
+ padding-bottom:50px;
+ }
+.layout_1 h2{ 
+ text-align:center;
+ font-size:35px;
+ padding-bottom:60px;
+ }
+.layout_2 img{ 
+ border-radius: 20px 60px 20px 60px;
+ }
+.layout_3 h3{ 
+ font-size:20px;
+ padding-top:10px;
+ padding-bottom:10px;
+ color: #0bbc5a;
+ }
+.layout_4 p{ 
+ color: #828590;
+ font-size:14px;
+ padding-top:10px;
+ line-height:23px;
+ padding-bottom:10px;
+ }
+.layout_4 ul{ 
+ padding-top:5px;
+ padding-bottom:5px;
+ }
+.layout_4 li{ 
+ display:inline;
+ margin-right:10px;
+ padding-left:10px;
+ }
+.layout_4 li a{ 
+ font-size:17px;
+ color:#999;
+ }
+.layout_4 li a:hover{ 
+ color: #0bbc5a;
+ }
+/********************* layout_end ****************/
+
+
+@media screen and (max-width : 767px){
+#team {
+ padding-top: 70px;
+ padding-bottom: 0px;
+ text-align: center;
+}
+.team_1 h2 {
+ font-size: 30px;
+ padding-top: 0px;
+ width: 100%;
+ margin-bottom: 10px;
+}
+.team_2 img{ 
+ width:100%;
+}
+#layout {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+.layout_1 h2 {
+ font-size: 33px;
+ padding-bottom: 20px;
+}
+.layout_4 ul {
+ padding-bottom: 15px;
+}
+}
+@media (min-width:470px) and (max-width:767px) { 
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.team_1 h2 {
+ font-size: 24px;
+}
+.team_2 img{ 
+ width:100%;
+}
+.layout_3 h3 {
+ font-size: 18px;
+}
+.layout_3 p {
+ font-size: 13px;
+}
+.layout_4 p {
+ font-size: 12px;
+ line-height: 18px;
+}
+.layout_4 li {
+ margin-right: 3px;
+ padding-left: 4px;
+}
+} 
+ 
+@media (min-width:961px) and (max-width:1200px) {
+.team_1 h2 {
+ font-size: 24px;
+}
+.team_2 img{ 
+ width:100%;
+}
+.layout_3 h3 {
+ font-size: 18px;
+}
+.layout_3 p {
+ font-size: 13px;
+}
+.layout_4 p {
+ font-size: 12px;
+ line-height: 18px;
+}
+.layout_4 li {
+ margin-right: 3px;
+ padding-left: 4px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

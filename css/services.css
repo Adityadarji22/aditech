@@ -1,0 +1,221 @@
+/*
+Template Name:Merchandise
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.Google.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+body{
+font-family: 'PT Serif Caption', serif;
+   }
+
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+border:none!important;
+ }
+ 
+/********************* services ****************/
+#services{ 
+ background: #080808;
+ padding-top:100px;
+ padding-bottom:0px;
+ }
+.services_1 h2{ 
+ font-size:40px;
+ color:#fff;
+ padding-top:80px;
+ border-bottom:3px solid #fff;
+ width:35%;
+ padding-bottom:10px;
+ }
+/********************* services_end ****************/
+/********************* financial ****************/
+#financial{ 
+ padding-top:50px;
+ padding-bottom:50px;
+ }
+.financial_1{ 
+ text-align:center;
+ }
+.financial_2{ 
+ text-align:center;
+ }
+.financial_1 h2{ 
+ font-size:35px;
+ padding-bottom:20px;
+ color:#000;
+ }
+.financial_1 p{ 
+ font-size:17px;
+ line-height:25px;
+ padding-bottom:30px;
+ }
+.financial_2 p a{ 
+ font-size:17px;
+ color:#fff;
+ background-color:#0bbc5a;
+ border:1px solid #0bbc5a;
+ padding:10px 20px 10px 20px;
+ border-radius: 10px 40px 10px 40px; 
+ }
+.financial_2 p a:hover{ 
+ color:#fff;
+ background-color:#000;
+ border:1px solid #000; 
+ }
+/********************* financial_end ****************/
+/********************* accounting ****************/
+#accounting{ 
+ padding-top:60px;
+ padding-bottom:60px;
+ background-color:#f1f1f1;
+ }
+.accounting_1{ 
+ padding-bottom:40px;
+ }
+.accounting_2 h2{ 
+ font-size:35px;
+ padding-bottom:10px;
+ }
+.accounting_2 p{ 
+ font-size:16px;
+ line-height:24px;
+ padding-top:10px;
+ padding-bottom:10px;
+ }
+.accounting_3 p{ 
+ padding-top:20px;
+ }
+.accounting_3 p a {
+ font-size: 17px;
+ color: #fff;
+ background-color: #0bbc5a;
+ border: 1px solid #0bbc5a;
+ padding: 10px 30px 10px 30px;
+ border-radius: 10px 40px 10px 40px;
+}
+.accounting_3 p a:hover{
+ color: #fff;
+ background-color: #000;
+ border: 1px solid #000;
+}
+/********************* accounting_end ****************/
+
+
+@media screen and (max-width : 767px){
+#services {
+ padding-top: 70px;
+ padding-bottom: 0px;
+ text-align: center;
+}
+.services_1 h2 {
+ font-size: 30px;
+ padding-top: 0px;
+ width: 100%;
+ margin-bottom: 10px;
+}
+.services_2 img{ 
+ width:100%;
+}
+#financial {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+#accounting {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+.accounting_1 {
+ padding-bottom: 10px;
+}
+.accounting_2 h2 {
+ font-size: 26px;
+ padding-bottom: 0px;
+}
+.accounting_3 p {
+ padding-top: 10px;
+ padding-bottom: 20px;
+}
+}
+@media (min-width:470px) and (max-width:767px) { 
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.services_1 h2 {
+ font-size: 24px;
+}
+.services_2 img{ 
+ width:100%;
+}
+.accounting_2 p {
+font-size: 14px;
+line-height: 20px;
+padding-top: 0px;
+}
+.accounting_2 h2 {
+ font-size: 25px;
+}
+.accounting_3 p a {
+ font-size: 17px;
+ padding: 5px 20px 5px 20px;
+}
+.accounting_3 p {
+ padding-top: 10px;
+ padding-bottom: 30px;
+}
+} 
+
+@media (min-width:961px) and (max-width:1200px) {
+.services_1 h2 {
+ font-size: 24px;
+}
+.services_2 img{ 
+ width:100%;
+}
+.accounting_2 p {
+font-size: 14px;
+line-height: 20px;
+padding-top: 0px;
+}
+.accounting_2 h2 {
+ font-size: 25px;
+}
+.accounting_3 p a {
+ font-size: 17px;
+ padding: 5px 20px 5px 20px;
+}
+.accounting_3 p {
+ padding-top: 10px;
+ padding-bottom: 30px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

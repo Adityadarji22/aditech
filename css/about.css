@@ -1,0 +1,217 @@
+/*
+Template Name:Merchandise
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.Google.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+body{
+font-family: 'PT Serif Caption', serif;
+   }
+
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+border:none!important;
+ }
+ 
+/********************* about ****************/
+#about{ 
+ background: #080808;
+ padding-top:100px;
+ padding-bottom:0px;
+ }
+.about_1 h2{ 
+ font-size:40px;
+ color:#fff;
+ padding-top:80px;
+ border-bottom:3px solid #fff;
+ width:35%;
+ padding-bottom:10px;
+ }
+/********************* about_end ****************/
+/********************* pariatur ****************/
+#pariatur{ 
+ padding-top:50px;
+ padding-bottom:50px;
+ }
+.pariatur_1 h2{ 
+ font-size:30px;
+ padding-bottom:25px;
+ }
+.pariatur_1 h4{ 
+ font-size:16px;
+ padding-bottom:15px;
+ line-height:26px;
+ }
+.pariatur_1 p{ 
+ font-size:14px;
+ padding-bottom:25px;
+ line-height:25px;
+ }
+.pariatur_2 p a{ 
+ border:1px solid #0bbc5a;
+ background-color:#0bbc5a;
+ color:#fff;
+ font-size:18px;
+ padding:10px 20px 10px 20px;
+ border-radius: 10px 40px 10px 40px;
+ }
+.pariatur_2 p a:hover{ 
+ border:1px solid #000;
+ background-color:#000;
+ color:#fff;
+ }
+#pariatur .glyphicon { margin-right:5px;}
+#pariatur .rating .glyphicon {font-size: 22px;}
+#pariatur .rating-num { margin-top:0px;font-size: 54px; }
+#pariatur .progress { margin-bottom: 5px;}
+#pariatur .progress-bar { text-align: left; }
+#pariatur .rating-desc .col-md-3 {padding-right: 0px;}
+#pariatur .sr-only { margin-left: 5px;overflow: visible;clip: auto; 
+}
+.pariatur_3{ 
+ padding-top:60px;
+ }
+/********************* pariatur_end ****************/
+/********************* history ****************/
+#history{ 
+ padding-top:50px;
+ padding-bottom:50px;
+ background-color:#f1f1f1;
+ }
+.history_1 h2{ 
+ text-align:center;
+ font-size:35px;
+ color:#000;
+ padding-bottom:50px;
+ }
+.history_2 h3{ 
+ font-size:16px;
+ color: #29293a;
+ padding-bottom:10px;
+ line-height:20px;
+ }
+.history_2 p{ 
+ font-size:14px;
+ color: #868585;
+ }
+#history .carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+#history .carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+#history .carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+#history .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+#history .carousel-indicators li {
+	background: #cecece;
+}
+#history .carousel-indicators .active {
+ background: #428bca;
+}
+/********************* history_end ****************/
+
+
+@media screen and (max-width : 767px){
+.about_2 img{ 
+ width:100%;
+}
+.about_1 h2 {
+ font-size: 27px;
+ width: 55%;
+ padding-top:0px;
+ margin-bottom: 10px;
+}
+#about {
+padding-top: 70px;
+padding-bottom: 0px;
+text-align: center;
+}
+#pariatur {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+#history {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+.history_1 h2 {
+ padding-bottom: 20px;
+}
+}
+@media (min-width:470px) and (max-width:767px) { 
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.about_1 h2 {
+ font-size: 25px;
+}
+.about_2 img{ 
+ width:100%;
+}
+.history_2 p {
+ padding-bottom: 15px;
+}
+} 
+
+@media (min-width:961px) and (max-width:1200px) {
+.about_1 h2 {
+ font-size: 25px;
+}
+.about_2 img{ 
+ width:100%;
+}
+.history_2 p {
+ padding-bottom: 15px;
+}
+.history_2 h3 {
+ font-size: 13px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}
